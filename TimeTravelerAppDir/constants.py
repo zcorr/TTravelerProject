@@ -2,7 +2,7 @@
 # ------------
 
 # Menu bar appearance
-MENU_LABELS     = ("ADD NEW", "EDIT", "VIEW", "EXPORT")
+MENU_LABELS     = ("ADD NEW", "EDIT", "VIEW")
 MENU_FONT       = ("Comic Sans MS", 16, "bold")
 MENU_BG         = "#e3f6ff"
 MENU_SELECTED_BG= "#b9f3ff"

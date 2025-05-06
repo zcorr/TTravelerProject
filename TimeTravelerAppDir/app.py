@@ -1,6 +1,8 @@
 # app.py
 # ------
 import tkinter as tk
+
+from TimeTravelerAppDir.pages import view_interface
 from constants import *
 from data import *
 from pages import (make_add_new_page, traveler_form,
@@ -58,8 +60,7 @@ class TravelersApp(tk.Tk):
             "ADD TRIP"     : trip_form(stack, TRAVELERS),
             "ADD COMPANION": companion_form(stack, TRAVELERS),
             "EDIT"         : placeholder(stack, "EDIT"),
-            "VIEW"         : placeholder(stack, "VIEW"),
-            "EXPORT"       : placeholder(stack, "EXPORT"),
+            "VIEW"         : view_interface(stack),
         }
 
         for p in self.pages.values():
